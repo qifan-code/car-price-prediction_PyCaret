@@ -13,3 +13,8 @@ Here is a comparision table:
 |Linear Regression | 2125246465639139508224.0000 | 0.2366 |0.0752|
 
 # 3. conclusion
+PyCaret model is extremally useful when we want to supervised learning in traditional way. It compares with different types of model and provides hyper-parameter methods in a quick and efficient way. 
+There are some problems remaining: 
+a. MSE before tune, linear regression gives us an extremelly large value compared with the other method which makes me confused. 
+b. Compared with MSE before and after tune, some model increase their MSE which doesnt make sense of hyper-parameter. 
+c. Final MSE on testing set, Extra Trees Regressor gives 100% accuracy. This result seems unreliable. Maybe because of overfitting or testing set split etc. 
